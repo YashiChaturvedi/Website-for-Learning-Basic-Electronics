@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="UTD-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/yourcode.js"></script>
+	<!--<link rel="stylesheet" type="text/css" href="style.css">-->
+	
+	
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&family=Oswald&display=swap" rel="stylesheet">
+
+	
+	
+	
+	<title>AMPLIFIERS</title>
+	<style>
+		h1 {text-align: center;font-size:100px;background-color:powderblue; ext-align:center; font-family: 'Bebas Neue', cursive;}
+		body{
+			padding:2%;
+			background-color:#DAFFED;
+		}
+		p{
+			background-color:#9BF3F0;
+			border-radius:5px;
+			padding:2%;
+		}
+		img{
+			width:300px;
+		}
+	</style>
+	
+</head>
+
+<body>
+
+<header>
+<!-- NAVIGATION BAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-inverse">
+   <?=$_SESSION['sess_user'];?>
+   <a class="navbar-brand" href="#" style="font-family: 'Oleo Script', cursive;">Welcome to our Website..!!</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="home_page.html" style="font-family: 'Oswald', sans-serif;">HOME</a>
+      </li>
+     
+      <li class="nav-item">
+        <a class="nav-link" href="Basic COmponents.html" style="font-family: 'Oswald', sans-serif;">BASIC COMPONENTS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Amplifiers.html" style="font-family: 'Oswald', sans-serif;">AMPLIFIERS</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="Oscillators.html" style="font-family: 'Oswald', sans-serif;">OSCILLATORS</a>
+      </li>
+	  
+	  <li class="nav-item">
+        <a class="nav-link" href="Digital Electronic.html" style="font-family: 'Oswald', sans-serif;">DIGITAL ELECTRONICS</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="projectvideo.html" style="font-family: 'Oswald', sans-serif;">VIDEO PROJECTS</a>
+      </li>
+	  
+	  <form align="right" name="form1" method="post" action="log_out.php">
+	  <label style="position:fixed; right:10px; top:137px; font-family: 'Oswald', sans-serif;">
+	  
+	  <button class='btn btn-dark pull-right'> <a href="logout.php">LOGOUT </a></button> 
+	  </label>
+	  </form>
+    </ul>
+  </div>
+</nav>
+</header>
+	<center><h1>AMPLIFIERS</h1></center>
+	<div>
+	<h2>What is Amplifiers?</h2>
+	<p> An amplifier, electronic amplifier or (informally) amp is an electronic device that can increase the power of a signal (a time-varying voltage or current). It is a two-port electronic circuit that uses electric power from a power supply to increase the amplitude of a signal applied to its input terminals, producing a proportionally greater amplitude signal at its output. The amount of amplification provided by an amplifier is measured by its gain: the ratio of output voltage, current, or power to input. An amplifier is a circuit that has a power gain greater than one.
+	<br><br>
+	An amplifier can either be a separate piece of equipment or an electrical circuit contained within another device. Amplification is fundamental to modern electronics, and amplifiers are widely used in almost all electronic equipment. Amplifiers can be categorized in different ways. One is by the frequency of the electronic signal being amplified. For example, audio amplifiers amplify signals in the audio (sound) range of less than 20 kHz, RF amplifiers amplify frequencies in the radio frequency range between 20 kHz and 300 GHz, and servo amplifiers and instrumentation amplifiers may work with very low frequencies down to direct current. Amplifiers can also be categorized by their physical placement in the signal chain; a preamplifier may precede other signal processing stages, for example.The first practical electrical device which could amplify was the triode vacuum tube, invented in 1906 by Lee De Forest, which led to the first amplifiers around 1912. Today most amplifiers use transistors.
+	</p>
+	<br>
+	<center>
+		<img src="img/amplifier.jpg"/>
+		<br>
+		<h4>fig1: Operational amplifier</h4>
+	</center>
+	
+	<h3>Working of Operational Amplifier:</h3>
+	<p> Operational amplifiers are a fundamental component in electronics. This section focuses on a classic amplifying device, the 741 op-amp.
+	<br><br>
+	As shown in Figure(a), the op-amp symbol has five terminals. The terminals V+ and V− are used for the input and they control the output, usually as an amplified signal on Vout. The op-amp is built using several resistors and other components called transistors. All these transistors and resistors are packed inside the very small package you can see in Figure (b). A dot and a dent on top of the package are generally used to identify the orientation of the package and therefore the pin number. You can also see these marked on the configuration diagram shown in Figure(c)
+	Figure 15  (a) Symbol for an op-amp; (b) the 741 op-amp package; (c) top view of an LM741 dual inline package (DIL), showing internal configuration and pin connections
+	</p>
+	<br>
+    <h4>Dual power supplies</h4>
+	<p>
+	On the op-amp symbol, the vertical lines marked VS+ and VS− are very important, since, as already mentioned, they are the op-amp’s connection to a power supply. However, when there is no room for confusion, the two vertical lines leading to the power source (VS+ and VS−) are sometimes omitted from the symbol.
+	<br>
+	Often a mains dual power supply provides the positive and negative voltages required for an op-amp. Alternatively, you could decide to use batteries to power the op-amp. Since batteries always give a positive voltage, how can they deliver a negative voltage? Figure 2 shows how two batteries can be connected to an op-amp to deliver positive and negative voltages.
+	</p>
+	<center>
+		<img src="img/powe amp.jpg"/>
+		<br>
+		<h4>fig2: Black box representation of the 741 op-amp</h4>
+	
+	</center>
+	</div>
+
+</body>
+
+</html>

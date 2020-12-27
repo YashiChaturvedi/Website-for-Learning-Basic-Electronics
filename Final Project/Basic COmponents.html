@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<meta charset="UTD-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/yourcode.js"></script>
+	<!--<link rel="stylesheet" type="text/css" href="style.css">-->
+	
+	
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&family=Oswald&display=swap" rel="stylesheet">
+
+	
+	
+	
+	<title>AMPLIFIERS</title>
+	<style>
+		h1 {text-align: center;font-size:100px;background-color:powderblue; ext-align:center; font-family: 'Bebas Neue', cursive;}
+		body{
+			padding:2%;
+			background-color:#DAFFED;
+		}
+		p{
+			background-color:#9BF3F0;
+			border-radius:5px;
+			padding:2%;
+		}
+		img{
+			width:300px;
+		}
+	</style>
+	
+</head>
+
+
+
+    <body>
+	
+	
+<header>
+<!-- NAVIGATION BAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-inverse">
+   <?=$_SESSION['sess_user'];?>
+   <a class="navbar-brand" href="#" style="font-family: 'Oleo Script', cursive;">Welcome to our Website..!!</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="home_page.html" style="font-family: 'Oswald', sans-serif;">HOME</a>
+      </li>
+     
+      <li class="nav-item">
+        <a class="nav-link" href="Basic COmponents.html" style="font-family: 'Oswald', sans-serif;">BASIC COMPONENTS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Amplifiers.html" style="font-family: 'Oswald', sans-serif;">AMPLIFIERS</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="Oscillators.html" style="font-family: 'Oswald', sans-serif;">OSCILLATORS</a>
+      </li>
+	  
+	  <li class="nav-item">
+        <a class="nav-link" href="Digital Electronic.html" style="font-family: 'Oswald', sans-serif;">DIGITAL ELECTRONICS</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="projectvideo.html" style="font-family: 'Oswald', sans-serif;">VIDEO PROJECTS</a>
+      </li>
+	  
+	  <form align="right" name="form1" method="post" action="log_out.php">
+	  <label style="position:fixed; right:10px; top:137px; font-family: 'Oswald', sans-serif;">
+	  
+	  <button class='btn btn-dark pull-right'> <a href="logout.php">LOGOUT </a></button> 
+	  </label>
+	  </form>
+    </ul>
+  </div>
+</nav>
+
+        <center><h1>BASIC ELECTRONIC COMPONENTS</h1></center>
+        <h3>What are the electronic components? </h3>
+        <p>The following components are among the most common found in electronic devices:</p>
+        <ul>
+            <li>Resistors</li>
+            <li>Capacitors</li>
+            <li>Diodes</li>
+            <li>Transistors</li>
+            <li>Inductors</li>
+            <li>Battery</li>
+            <li>Switches</li>
+            <li>Motors</li>
+            <li>Microcontrollers</li>
+            <li>Transformers</li>
+        </ul>
+
+        <h3>What are electronic components used for?</h3>
+        <p> Microcomputers are small computers used to control a multitude of devices, such as power tools, 
+            remote controls, medical equipment and office machines. Batteries convert chemical energy to electrical energy. 
+            The two different cells of a battery are anode (+) and cathode (-). </p> 
+            <p> Fuses help preserve components from overloading with excessive current. A fuse consists of connection body, 
+                support, contacts and metal-fuse material such as Zinc or copper. As a protective device, a circuit breaker 
+                can be controlled with a remote switch. It is designed to protect the circuit from overloading or a short circuit. </p>
+                <p> Fuses help preserve components from overloading with excessive current. A fuse consists of connection body,
+                     support, contacts and metal-fuse material such as Zinc or copper. As a protective device, a circuit breaker
+                 can be controlled with a remote switch. It is designed to protect the circuit from overloading or a short circuit. </p>
+                 <p> Motors convert electrical energy into mechanical energy. Key components include a rotor, stator, bearings, 
+                     conduit box, enclosure, and eye bolt. From watches, to home entertainment equipment, to vehicles; motors can power a wide array of devices. </p>
+
+                     <h3> What are active and passive components in electronics?</h3>
+                     <p> ctive components include transistors, while passive components include transformers, inductors, resistors, capacitors. Transformers are 
+                         commonly used to step up or step down power. A resistor restricts current flow. It is used in thermistors and potentiometers. 
+                         Similar to a low capacity battery, a capacitor allows delays to occur in circuits. Inductors are used to control frequencies.</p>
+                      <p>   Below is a brief overview of the components and their functions. </p> 
+<center>
+                       <figure>
+                        <img src="img\register.jpg" width="300px" alt="Register"> 
+                            <details>
+                                <summary> Register </summary>
+                                <p> <mark> 
+                                    A resistor is one of the components you will come across in an integrated circuit. Like the name suggests, the device resists
+                                     the flow of current. Resistors are graded based on their power ratings (amount of power they can handle without exploding) and 
+                                     resistance values (capacity to resist current). The measurement is done in units know as ohms. The electronic symbol of the unit is O.
+                                    </mark> </p>
+                            </details>
+                    </figure>
+                    
+                    <figure>
+                        <img src="img\capacitors.jpg" width="300px" alt="Capacitors">
+                        <details>
+                            <summary> Capacitors </summary>
+                            <p> <mark>
+                                These components can store electric charge temporarily. The components come in different varieties,
+                                 with the most common ones being electrolytic and ceramic disk. The capacity of a component is usually measured in microfarads (ÂµF)
+                                </mark>   </p>
+                        </details>
+                    </figure>
+
+                    <figure>
+                        <img src="img\diodes.jpg" width="300px" alt="Diodes"> 
+                            <details>
+                                <summary> Diodes </summary>
+                                <p> <mark>
+                                    Diodes allow electric current to flow in a single direction only. Each diode has two terminals known as the anode and cathode. 
+                                    When the anode is charged with positive voltage and the cathode with a negative one, electric current can flow. 
+                                    Reversing these voltages will prevent the current from flowing.
+                                </mark> </p>
+                            </details>
+                            </figure>
+
+                            <figure>
+                                <img src="img\transistors.jpg" width="300px" alt="Transistors"> 
+                                    <details>
+                                        <summary> Transistors </summary>
+                                        <p> <mark>
+                                            These components are easy to identify through their three terminals. For the components to work,
+                                             voltage has to be applied to one of them; the base terminal. The base can then control current 
+                                             flow in the two other terminals (the emitter and collector).
+                                            </mark>  </p>
+                                    </details>
+                                    </figure>
+
+                                    <figure>
+                                        <img src="img\Inductors.jpg" width="300px" alt="Inductors"> 
+                                            <details>
+                                                <summary> Inductors </summary>
+                                                <p> <mark>
+                                                    These components are easy to identify through their three terminals. For the components to work, 
+                                                    voltage has to be applied to one of them; the base terminal. The base can then control current 
+                                                    flow in the two other terminals (the emitter and collector).
+                                                    </mark> </p>
+                                            </details>
+                                            </figure>
+
+                                            <figure>
+                                                <img src="img\battry.jpg" width="300px" alt="Batteries"> 
+                                                    <details>
+                                                        <summary> Batteries </summary>
+                                                        <p> <mark>
+                                                            Batteries convert chemical energy to electrical energy. The two different cells of a battery are anode (+) 
+                                                            and cathode (-)
+                                                            </mark> </p>
+                                                    </details>
+                                                    </figure>
+
+                                                    <figure>
+                                                        <img src="img\switches.png" width="300px" alt="Switches"> 
+                                                            <details>
+                                                                <summary> Switches </summary>
+                                                                <p> <mark>
+                                                                    Switches interrupt current. The four types of switches are: single pole single throw (SPST),
+                                                                     single pole double throw (SPDT), double pole single throw (DPST), and double pole double throw (DPDT).
+                                                                     </mark> </p>
+                                                            </details>
+                                                            </figure>
+
+                                                            <figure>
+                                                                <img src="img\motors.jpg" width="300px" alt="Motors"> 
+                                                                    <details>
+                                                                        <summary> Motors </summary>
+                                                                        <p> <mark>
+                                                                            Motors convert electrical energy into mechanical energy. Key components include a rotor, stator, bearings, c
+                                                                            onduit box, enclosure, and eye bolt.
+                                                                            </mark> </p>
+                                                                    </details>
+                                                                    </figure>
+
+                                                                    <figure>
+                                                                        <img src="img\microcontroller.jpg" width="300px" alt="Microcontrollers"> 
+                                                                            <details>
+                                                                                <summary> Microcontrollers </summary>
+                                                                                <p><mark>
+                                                                                    Microcontrollers are small computers used to control a multitude of devices, such as power tools,
+                                                                                     remote controls, medical equipment and office machines.
+                                                                                     </mark> </p>
+                                                                            </details>
+                                                                            </figure>
+
+                                                                            <figure>
+                                                                                <img src="img\transformer.jpg" width="300px" alt="Transformers"> 
+                                                                                    <details>
+                                                                                        <summary> Transformers </summary>
+                                                                                        <p><mark>
+                                                                                            Built with two coils of wire, transformers are commonly used to step up or step down power.
+                                                                                            </mark> </p>
+                                                                                    </details>
+                                                                                    </figure>
+</center>   
+   </body>
+</html>
